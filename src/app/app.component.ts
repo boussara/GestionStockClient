@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   showsidebar:boolean=false;
+
+  onshowsidebarchange(showsidebar){
+
+    this.showsidebar=showsidebar;
+
+  }
 }
