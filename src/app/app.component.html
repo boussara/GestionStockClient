@@ -1,3 +1,15 @@
-<h1>
-  {{title}}
-</h1>
+<div class="row">
+ <div class="col-lg-2" *ngIf="showsidebar" >
+  <app-sideBar></app-sideBar>
+ </div>
+<div class="col-lg-10">
+  <button (click)="showsidebar =! showsidebar;">Show/hide</button>
+      <app-navbar></app-navbar>
+      <app-produit></app-produit>
+</div>
+
+</div>
+
+
+
+
